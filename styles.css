@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #A39193;
+    font-family: 'Cabin', sans-serif;
+}
+
+.quotebox{
+    background-color: #66545E;
+    border-radius: 10px;
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quotebox h2{
+    font-size: 30px;
+    
+}
+
+.quotebox h2::after{
+    background: #A39193;
+        content: "";
+        display: block;
+        width: 700px;
+        height: 3px;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%);
+}
+
+.quotebox blockquote{
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    min-height: 110px;
+}
+
+.quotebox blockquote::before, .quotebox blockquote::after{
+    content: '"';
+
+}
+
+.quotebox span{
+    display: block;
+    margin-top: 10px;
+    /* float: right; */
+    position: relative;
+    top: 50px;
+}
+
+.quotebox span::before{
+    /* content: ''; */
+    height: 2px;
+    background: #A39193;
+    width: 10px;
+    position: absolute;
+    top: 50%;
+}
+
+/* .but{
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+    left: 70px;
+} */
+
+/* button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: #A39193;
+    border: none;
+    position: relative;
+    top: 110px;
+    
+}
+
+button:hover{
+ background: #323031;
+ color: antiquewhite;
+} */
+
+.but {
+    margin-top: 90px; /* Adjust this margin as needed */
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background: #A39193;
+    border: none;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
